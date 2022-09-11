@@ -12,6 +12,13 @@ app.use(express.json());
 let currentDice = 0;
 
 
+app.get("/test", (req, res) => {
+
+    res.json({
+        message:"I'm here"
+    })
+});
+
 
 app.post("/rolldice", (req, res) => {
 
