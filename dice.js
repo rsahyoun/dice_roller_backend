@@ -7,7 +7,7 @@ const { v4: uuid } = require("uuid");
 const app = express();
 
 app.use(express.json());
-pp.use(cors({
+app.use(cors({
     origin: '*'
 }));
 
